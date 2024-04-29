@@ -10,10 +10,10 @@
 }
 
 :root {
-  --bg-color: #191f36;
-  --snd-bg-color: #262b40;
+  --bg-color: #281936;
+  --snd-bg-color: #352640;
   --text-color: #fff;
-  --main-color: #59b2f4;
+  --main-color: #ddf459;
 }
 
 html {
@@ -446,7 +446,7 @@ footer {
   }
 
   .home-content h1 {
-    font-size: 5rem;
+    font-size: 4.9rem;
   }
 
   .home-content {

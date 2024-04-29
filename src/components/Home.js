@@ -25,9 +25,6 @@ export default function Home() {
             <i className="fa-brands fa-facebook"></i>
           </a>
         </div>
-        <a className="btn" href="#cv">
-          Download CV
-        </a>
       </div>
       <div className="home-img">
         <img

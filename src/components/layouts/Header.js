@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 
 export default function Header() {
@@ -10,15 +10,15 @@ export default function Header() {
     navbar.classList.toggle("active");
   };
 
-  const [side, setSide] = useState("top");
+  let side;
 
   useEffect(() => {
     // Determine ScrollReveal Working Side
     const handleResize = () => {
       if (window.innerWidth <= 768) {
-        setSide("left");
+        side = "left";
       } else {
-        setSide("top");
+        side = "top";
       }
     };
     handleResize();
