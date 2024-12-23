@@ -2,10 +2,6 @@ import aboutPic from "../assets/img/aboutpic.png";
 export default function About() {
   return (
     <section className="about" id="about">
-      <div className="about-img">
-        <img src={aboutPic} alt="about" />
-      </div>
-
       <div className="about-content">
         <h2 className="heading">
           About <span>Me</span>
@@ -22,6 +18,9 @@ export default function About() {
         <a href="#" className="btn">
           Read more
         </a>
+      </div>
+      <div className="about-img">
+        <img src={aboutPic} alt="about" />
       </div>
     </section>
   );
