@@ -8,16 +8,13 @@ export default function About() {
         </h2>
         <h3>Full-Stack Developer</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          pariatur voluptatem iure qui ut minima officia fugiat aut voluptatibus
-          voluptas ducimus tempora dolores eius repudiandae, voluptates
-          quibusdam! Veritatis assumenda exercitationem, quam corrupti dolor
-          eveniet, ipsam itaque velit cum placeat molestiae omnis eaque tempore
-          cupiditate aperiam odio dignissimos consequatur maiores earum.
+          Hi, I'm Mohamed Sa Aadhath, a passionate Full-Stack Developer with a
+          focus on building dynamic and responsive web applications. I
+          specialize in the MERN stack and enjoy working on projects that
+          challenge me to learn and grow. My goal is to deliver clean,
+          maintainable code that enhances user experience and provides real
+          value.
         </p>
-        <a href="#" className="btn">
-          Read more
-        </a>
       </div>
       <div className="about-img">
         <img src={aboutPic} alt="about" />

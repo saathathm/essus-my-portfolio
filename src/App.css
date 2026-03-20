@@ -51,6 +51,13 @@ section {
   cursor: default;
 }
 
+.onProcess {
+  color: green;
+  font-weight: 900 !important;
+  font-size: 1.8rem !important;
+
+}
+
 .navbar a {
   font-size: 1.5rem;
   color: var(--text-color);
@@ -75,6 +82,10 @@ section {
   align-items: center;
 }
 
+.home-content {
+  padding-right: 10px;
+}
+
 .home-content h3 {
   font-size: 3.2rem;
   font-weight: 700;
@@ -97,6 +108,10 @@ span {
 .home-img img {
   width: 25vw;
   animation: floatImage 4s ease-in-out infinite;
+}
+
+.fa-up-right-from-square {
+  font-size: 20px;
 }
 
 @keyframes floatImage {
@@ -165,6 +180,7 @@ span {
 
 .about-img img {
   width: 35vw;
+  border-radius: 8px;
 }
 
 .heading {
@@ -199,7 +215,7 @@ span {
 }
 
 .services-container .services-box {
-  flex: 1 1 30rem;
+  flex: 1 1 25rem;
   background: var(--snd-bg-color);
   padding: 3rem 2rem 4rem;
   border-radius: 2rem;
@@ -214,16 +230,19 @@ span {
 }
 
 .services-box i {
-  font-size: 7rem;
+  padding-bottom: 8px;
+  font-size: 3rem;
   color: var(--main-color);
 }
 
 .services-box h3 {
-  font-size: 2.6rem;
+  font-size: 2rem;
 }
+
 .services-box p {
-  font-size: 1.6rem;
-  margin: 1rem 0 3rem;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  text-align: left;
 }
 
 .portfolio {
@@ -265,7 +284,7 @@ span {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), var(--main-color));
+  background: linear-gradient(rgba(0, 0, 0, 0.4), var(--main-color));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -281,12 +300,13 @@ span {
 }
 
 .portfolio-layer h4 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .portfolio-layer p {
-  font-size: 1.6rem;
-  margin: 0.3rem 0 1rem;
+  font-size: 1.5rem;
+  margin: 0.6rem 0 2rem;
+  font-weight: 700;
 }
 
 .portfolio-layer a {
@@ -345,6 +365,13 @@ span {
   cursor: pointer;
 }
 
+.popup-msg{
+  padding: 20px 45px;
+  background-color: #000;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -389,6 +416,7 @@ footer {
   .header {
     padding: 2rem 3%;
   }
+
   section {
     padding: 10rem 3%;
   }
@@ -413,6 +441,7 @@ footer {
 @media (max-width: 768px) {
   #menu-icon {
     display: block;
+    font-size: 23px;
   }
 
   .navbar {
@@ -465,6 +494,15 @@ footer {
   .about-img img {
     width: 90vw;
     margin-top: 4rem;
+  }
+
+  .about-img {
+    order: 1;
+  }
+
+  .about-content {
+    margin-top: 3rem;
+    order: 2;
   }
 
   .services h2 {
