@@ -1,4 +1,4 @@
-import aboutPic from "../assets/img/aboutpic.png";
+import aboutPic from "../assets/img/aboutpic.jpg";
 export default function About() {
   return (
     <section className="about" id="about">

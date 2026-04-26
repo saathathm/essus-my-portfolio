@@ -1,4 +1,4 @@
-import saadhath from "../assets/img/saadh.jpeg";
+import saadhath from "../assets/img/saadh.jpg";
 
 export default function Home() {
   return (
