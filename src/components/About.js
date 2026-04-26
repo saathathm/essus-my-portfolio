@@ -6,14 +6,14 @@ export default function About() {
         <h2 className="heading">
           About <span>Me</span>
         </h2>
-        <h3>Full-Stack Developer</h3>
+        <h3>Web Developer</h3>
         <p>
-          Hi, I'm Mohamed Sa Aadhath, a passionate Full-Stack Developer with a
-          focus on building dynamic and responsive web applications. I
-          specialize in the MERN stack and enjoy working on projects that
-          challenge me to learn and grow. My goal is to deliver clean,
-          maintainable code that enhances user experience and provides real
-          value.
+          Hi, I'm Mohamed Sa Aadhath, a web developer with a focus on building
+          responsive and practical web applications. I work with React.js,
+          Node.js, PHP, Laravel, and databases to create clean, maintainable
+          solutions. I am currently strengthening my full stack development
+          skills through portfolio projects, with the goal of growing into a
+          professional software engineering role.
         </p>
       </div>
       <div className="about-img">

@@ -7,14 +7,13 @@ export default function Home() {
         <h3>Hi, Myself</h3>
         <h1>Mohamed Sa Aadhath</h1>
         <h3>
-          And I'm a <span>Full-Stack Developer</span>{" "}
+          And I'm a <span>Web Developer</span>{" "}
         </h3>
         <p>
-          I'm a passionate Full-Stack Developer with expertise in the MERN
-          stack. I enjoy building efficient and user-friendly web applications
-          that help solve real-world problems. With a strong focus on quality
-          and innovation, I aim to create seamless experiences that meet the
-          needs of users and businesses alike.
+          I'm a web developer focused on building responsive, user-friendly web
+          applications using React.js, Node.js, PHP, Laravel, and MySQL. I enjoy
+          creating practical solutions, learning modern technologies, and
+          improving my skills through real-world projects.
         </p>
         <div className="social-media">
           <a
