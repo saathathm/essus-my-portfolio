@@ -93,7 +93,7 @@ export default function Portfolio() {
         <div className="portfolio-box">
           <img src={eCom} alt="portfolio" />
           <div className="portfolio-layer" onClick={() => {}}>
-            <h4>Essus: Full-Stack E-commerce Store</h4>
+            <h4>Velmora: Full-Stack E-commerce Store</h4>
             __________________________________________
             <p className="onProcess">ON PROCESS</p>
             {/* <i className="fa-solid fa-up-right-from-square"></i> */}
