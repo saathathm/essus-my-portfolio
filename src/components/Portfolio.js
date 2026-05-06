@@ -17,6 +17,27 @@ export default function Portfolio() {
 
       <div className="portfolio-container">
         <div className="portfolio-box">
+          <img src={eCom} alt="Velmora Ecommerce Store" />
+
+          <div
+            className="portfolio-layer"
+            onClick={() => {
+              handleRedirect("https://velmora-ecommerce-topaz.vercel.app/");
+            }}
+          >
+            <h4>Velmora Ecommerce Store — MERN Stack</h4>
+            __________________________________________
+            <p>
+              Designed and deployed an in-progress full-stack ecommerce platform
+              with authentication, product search, cart management, order flow,
+              password reset, and Stripe payment integration using the MERN
+              stack, JWT, Redux Toolkit, MongoDB Atlas, and Vercel.
+            </p>
+
+            <i className="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+        <div className="portfolio-box">
           <img src={notesApp} alt="portfolio" />
           <div
             className="portfolio-layer"
@@ -57,7 +78,7 @@ export default function Portfolio() {
             className="portfolio-layer"
             onClick={() => {
               handleRedirect(
-                "https://docs.google.com/document/d/1UCfXeywmpd80P9CvX802gResril6QjbqHRJGGmBTcR8/edit?usp=sharing"
+                "https://docs.google.com/document/d/1UCfXeywmpd80P9CvX802gResril6QjbqHRJGGmBTcR8/edit?usp=sharing",
               );
             }}
           >
@@ -88,24 +109,6 @@ export default function Portfolio() {
               user experience.
             </p>
             <i className="fa-solid fa-up-right-from-square"></i>
-          </div>
-        </div>
-        <div className="portfolio-box">
-          <img src={eCom} alt="portfolio" />
-          <div className="portfolio-layer" onClick={() => {}}>
-            <h4>Velmora: Full-Stack E-commerce Store</h4>
-            __________________________________________
-            <p className="onProcess">ON PROCESS</p>
-            {/* <i className="fa-solid fa-up-right-from-square"></i> */}
-          </div>
-        </div>
-        <div className="portfolio-box">
-          <img src={eGem} alt="portfolio" />
-          <div className="portfolio-layer" onClick={() => {}}>
-            <h4>Essus GEM: Full-Stack Gem Store</h4>
-            __________________________________________
-            <p className="onProcess">ON PROCESS</p>
-            {/* <i className="fa-solid fa-up-right-from-square"></i> */}
           </div>
         </div>
       </div>

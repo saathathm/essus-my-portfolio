@@ -52,10 +52,9 @@ section {
 }
 
 .onProcess {
-  color: green;
-  font-weight: 900 !important;
-  font-size: 1.8rem !important;
-
+  color: #fbbf24 !important;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 
 .navbar a {
@@ -83,7 +82,7 @@ section {
 }
 
 .home-content {
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 .home-content h3 {
@@ -284,7 +283,10 @@ span {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), var(--main-color));
+  background: linear-gradient(
+    rgba(18, 8, 32, 0.82),
+    rgba(88, 28, 135, 0.9)
+  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -300,13 +302,16 @@ span {
 }
 
 .portfolio-layer h4 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
+  margin-bottom: 0.1rem;
+  color: #ffffff;
 }
 
 .portfolio-layer p {
   font-size: 1.5rem;
-  margin: 0.6rem 0 2rem;
+  margin: 1.5rem 0 2rem;
   font-weight: 700;
+  color: #f3f4f6;
 }
 
 .portfolio-layer a {
@@ -319,9 +324,12 @@ span {
   border-radius: 50%;
 }
 
-.portfolio-layer a i {
+.portfolio-layer i {
   font-size: 2rem;
-  color: var(--snd-bg-color);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1rem;
+  border-radius: 50%;
 }
 
 .contact h2 {
