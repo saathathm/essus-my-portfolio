@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/essus-my-portfolio/static/css/main.9cefe44f.css",
-    "main.js": "/essus-my-portfolio/static/js/main.76b732bc.js",
+    "main.css": "/essus-my-portfolio/static/css/main.bf683384.css",
+    "main.js": "/essus-my-portfolio/static/js/main.058a7bf0.js",
     "static/media/socialM.png": "/essus-my-portfolio/static/media/socialM.dfcbdeba5b290b6a5ec1.png",
     "static/media/eGem.png": "/essus-my-portfolio/static/media/eGem.8468d89c1de7311cd6aa.png",
-    "static/media/saadh.jpg": "/essus-my-portfolio/static/media/saadh.8530a2b16f1431299b39.jpg",
+    "static/media/saadh.jpg": "/essus-my-portfolio/static/media/saadh.364869b6f2cd2726b43a.jpg",
     "static/media/eCom.png": "/essus-my-portfolio/static/media/eCom.a4917e365c78b375f4a4.png",
     "static/media/aboutpic.jpg": "/essus-my-portfolio/static/media/aboutpic.5e008fe63c1dcc3a7fca.jpg",
     "static/media/leaveM.jpg": "/essus-my-portfolio/static/media/leaveM.f51494990cf97fd447d7.jpg",
     "static/media/eFash.png": "/essus-my-portfolio/static/media/eFash.c7221a0de9b014596940.png",
     "static/media/noteApp.png": "/essus-my-portfolio/static/media/noteApp.de827ee61eb4b3fddfb2.png",
     "index.html": "/essus-my-portfolio/index.html",
-    "main.9cefe44f.css.map": "/essus-my-portfolio/static/css/main.9cefe44f.css.map",
-    "main.76b732bc.js.map": "/essus-my-portfolio/static/js/main.76b732bc.js.map"
+    "main.bf683384.css.map": "/essus-my-portfolio/static/css/main.bf683384.css.map",
+    "main.058a7bf0.js.map": "/essus-my-portfolio/static/js/main.058a7bf0.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cefe44f.css",
-    "static/js/main.76b732bc.js"
+    "static/css/main.bf683384.css",
+    "static/js/main.058a7bf0.js"
   ]
 }
